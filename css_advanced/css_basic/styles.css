@@ -1,0 +1,46 @@
+/* Body background and text */
+body {
+  background-color: #f0f8ff; /* light blue */
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Article customization */
+article {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  line-height: 1.7;
+}
+
+/* Aside style */
+aside {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  border-left: 2px solid #3498db;
+}
+
+/* Header & footer color */
+header, footer {
+  background-color: #002244;
+  color: white;
+}
+
+/* Navigation list in header */
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding-left: 0;
+}
+
+header li {
+  font-weight: bold;
+}
+
+/* Logo style (already provided in base.css, but you can reinforce it here) */
+.logo {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
